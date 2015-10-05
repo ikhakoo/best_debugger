@@ -19,4 +19,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
+  s.add_dependency "better_errors"
+  s.add_dependency "binding_of_caller"
+  s.add_dependency "pry-rails"
+  s.add_dependency "pry-byebug"
 end
